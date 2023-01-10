@@ -1,0 +1,80 @@
+.container {
+    min-height: 90vh;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2.3rem;
+    width: 100%;
+}
+
+.imgGroup {
+    margin-top: 3.5rem;
+}
+
+.textContainer {
+    margin-top: 3.5rem;
+    width: 80%;
+}
+
+h1 {
+    font-size: 7.7rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 114px;
+    margin-bottom: 1.8rem;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #666270;
+    line-height: 28px;
+}
+
+.searchBarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3.1rem;
+
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 1rem 1.5rem;
+}
+
+.search input {
+    color: #666270;
+    border: 1px solid #D6D4DD;
+    border-radius: 6px;
+    padding: 0.8rem 1.7rem;
+    margin-right: 1rem;
+}
+
+.searchButton {
+    padding: 0.8rem 1.7rem;
+    border: none;
+    background: #FD5D11;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.searchButton:hover {
+    background-color: white;
+    color: #FD5D11;
+    border: 0.5px solid #FD5D11;
+}
+
+.searchButton img:hover{
+  color: #FD5D11;
+}

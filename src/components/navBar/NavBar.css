@@ -1,0 +1,84 @@
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2.3rem;
+    max-width: 100%;
+}
+
+.Logo {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #191623 ;
+    cursor: pointer;
+}
+
+.Logo img {
+    margin-right: 0.5rem;
+}
+
+.Logo p{
+    margin-bottom: -0.2rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+ul a {
+    position: relative;
+    text-decoration: none;
+    margin-right: 2.6rem;
+    line-height: 1.6rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: #191623;
+    transition: color 0.2s ease-in-out;
+}
+
+button {
+    padding: 0.8rem 1.7rem;
+    border: none;
+    background: #FD5D11;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: white;
+    color: #FD5D11;
+    border: 0.5px solid #FD5D11; 
+}
+
+ul a:before, ul a:after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    width: 0;
+    height: 2px;
+    background: #191623;
+    transition: width 0.2s ease-in-out;
+}
+
+ul a:before {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+ul a:after {
+    right: 50%;
+    transform: translateX(50%);
+}
+
+ul a:hover:before, ul a:hover:after {
+    width: 50%;
+}
