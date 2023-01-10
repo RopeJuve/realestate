@@ -4,7 +4,6 @@ import image2 from "../../assets/Rectangle 2.png";
 import image4 from "../../assets/Rectangle 4.png";
 import image3 from "../../assets/Rectangle 3.png";
 import image5 from "../../assets/Rectangle 5.png";
-import vector from "../../assets/Vector 2.png";
 import mouse  from '../../assets/Group 17799.png'
 
 const HeroSection = () => {
@@ -28,10 +27,13 @@ const HeroSection = () => {
             <input placeholder="Where are you moving?" />
             <input placeholder="What type of home?" />
             <button className="searchButton">
-              Find a home <img src={vector} alt='vector' />
+              Find a home {"->"}
             </button>
           </div>
-          <img src={mouse} alt='scrol bottom'/>
+       <div className='flexContainer'>
+       <img src={mouse} alt='scrol bottom'/>
+          <p className="grayColor">Scroll Down</p>
+       </div>
         </div>
       </div>
     </div>

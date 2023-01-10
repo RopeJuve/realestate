@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 2.3rem;
-    max-width: 100%;
+    padding: 2.3rem 7rem;
+    max-width: 75rem;
 }
 
 .Logo {
@@ -51,6 +51,7 @@ button {
     font-weight: 600;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+    margin-right: -1rem;
 }
 
 button:hover {
@@ -80,5 +81,5 @@ ul a:after {
 }
 
 ul a:hover:before, ul a:hover:after {
-    width: 50%;
+    width: 100%;
 }
