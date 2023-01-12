@@ -21,21 +21,21 @@ const CountdownSection = () => {
       <div className="countdown">
         <div className="impresion">
           <div className="icon">
-            <img src={icon3} alt='icon' />
+            <img src={icon3} alt="icon" />
             <p> +20K</p>
           </div>
           <p className="subTitle">Clients worldwide</p>
         </div>
         <div className="impresion">
           <div className="icon">
-            <img src={icon1} alt='icon'/>
+            <img src={icon1} alt="icon" />
             <p>95.7%</p>
           </div>
           <p className="subTitle">Satisfied Clients</p>
         </div>
         <div className="impresion">
           <div className="icon">
-            <img src={icon2} alt='icon' />
+            <img src={icon2} alt="icon" />
             <p>100+</p>
           </div>
           <p className="subTitle">City around</p>

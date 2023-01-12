@@ -13,7 +13,9 @@ const NavBar = () => {
       <ul>
         {["Home", "About us", "Renters", "Homeawners", "Reviews"].map(
           (menuItem, index) => (
-            <a href='' key={index}>{menuItem}</a>
+            <a href={`#${menuItem}`} key={index}>
+              {menuItem}
+            </a>
           )
         )}
       </ul>

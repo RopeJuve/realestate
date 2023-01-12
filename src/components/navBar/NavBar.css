@@ -4,6 +4,7 @@
     align-items: center;
     padding: 2.3rem 7rem;
     max-width: 75rem;
+    margin: 0 auto;
 }
 
 .Logo {
@@ -13,7 +14,7 @@
     font-weight: 600;
     font-size: 1.6rem;
     line-height: 2rem;
-    color: #191623 ;
+    color: #191623;
     cursor: pointer;
 }
 
@@ -21,7 +22,7 @@
     margin-right: 0.5rem;
 }
 
-.Logo p{
+.Logo p {
     margin-bottom: -0.2rem;
 }
 
@@ -57,15 +58,16 @@ button {
 button:hover {
     background-color: white;
     color: #FD5D11;
-    border: 0.5px solid #FD5D11; 
+    border: 0.5px solid #FD5D11;
 }
 
-ul a:before, ul a:after {
+ul a:before,
+ul a:after {
     content: "";
     position: absolute;
     bottom: -1px;
     width: 0;
-    height: 2px;
+    height: 1px;
     background: #191623;
     transition: width 0.2s ease-in-out;
 }
@@ -80,6 +82,7 @@ ul a:after {
     transform: translateX(50%);
 }
 
-ul a:hover:before, ul a:hover:after {
+ul a:hover:before,
+ul a:hover:after {
     width: 100%;
 }
