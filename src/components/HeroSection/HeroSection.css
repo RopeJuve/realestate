@@ -75,7 +75,7 @@ h1 {
 .searchButton:hover {
     background-color: white;
     color: #FD5D11;
-    border: 0.5px solid #FD5D11;
+    outline: 0.5px solid #FD5D11;
 }
 
 .searchButton img:hover {

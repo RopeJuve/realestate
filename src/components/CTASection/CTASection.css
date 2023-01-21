@@ -1,0 +1,53 @@
+.section-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 15rem;
+    margin: 8rem 9.5rem;
+}
+
+.img-container{
+    display:flex;
+    width:50%;
+    gap: 1rem;
+    margin-left: -0.5rem
+}
+
+.text-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    width: 50%;
+}
+
+.text-container > p{
+    width: 80%;
+    margin-bottom: -1rem;
+    font-size: 1.1rem;
+    line-height: 28px;
+    color: #7a787e;
+
+}
+
+.text-container > h1{
+    margin-bottom: -1.5rem;
+    font-size: 3.5rem;
+    line-height: 64px;
+    color: #191623;
+}
+
+.button-container{
+    display: flex;
+    gap: 2rem;
+}
+
+.contactUs-button {
+    background-color: #6637EE;
+}
+
+.contactUs-button:hover {
+    background-color: white;
+    outline: .5px solid #6637EE;
+    color: #6637EE;
+    transition: all 500ms ease-in-out;
+}
